@@ -7,7 +7,7 @@ pwd
 # If file doesn't exist
 if [[ ! -f README.md ]]
 then
-    echo '# angular-material' >> README.md
+    echo '# $1' >> README.md
 fi
 
 git init
