@@ -7,6 +7,7 @@ pwd
 # If file doesn't exist
 if [[ ! -f README.md ]]
 then
+    echo "Your title name is going to be $1"
     echo "# $1" >> README.md
 fi
 
